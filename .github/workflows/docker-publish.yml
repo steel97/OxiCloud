@@ -22,7 +22,6 @@ jobs:
     name: Build & Push Multi-Arch
     runs-on: ubuntu-latest
     timeout-minutes: 360
-    needs: test
     permissions:
       contents: read
       packages: write
